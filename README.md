@@ -37,3 +37,16 @@ Para atualizar a senha, o usuário deve também enviar um campo de confirmação
 
 - Criptografe a senha do usuário para segurança.
 - Realize a validação dos dados de entrada;
+
+--------------------------------------------------------------------------------
+
+### Informações
+
+#### Requisitos
+- Banco de dados postgressSQL
+#### Iniciar app
+- Instalar dependências rodando o comando 'yarn'
+- Criar base da dados 'meetapp'
+- Executar as migrations rodando o comando 'yarn runmigrations'
+- Executar servidor rodando o comando 'yarn dev'
+
